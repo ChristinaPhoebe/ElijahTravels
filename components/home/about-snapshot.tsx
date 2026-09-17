@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { SITE } from '@/lib/site'
-import { Eyebrow } from '@/components/section-heading'
 
 export function AboutSnapshot() {
   return (
@@ -27,7 +26,6 @@ export function AboutSnapshot() {
         </div>
 
         <div className="flex flex-col gap-5">
-          <Eyebrow>Since {SITE.since}</Eyebrow>
           <h2 className="text-balance text-3xl font-bold leading-tight sm:text-4xl">
             Your Local Travel Partner in Chennai
           </h2>

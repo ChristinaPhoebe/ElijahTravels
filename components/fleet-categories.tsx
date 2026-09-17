@@ -4,7 +4,7 @@ import { FLEET_CATEGORIES } from '@/lib/data'
 
 export function FleetCategories() {
   return (
-    <div className="grid gap-5 md:grid-cols-3">
+    <div className="mx-auto grid max-w-6xl gap-5 px-4 py-16 sm:px-6 md:grid-cols-3 lg:py-20">
       {FLEET_CATEGORIES.map((c) => (
         <div key={c.title} className="flex flex-col overflow-hidden rounded-3xl border border-border bg-card">
           <div className="relative aspect-[16/10] overflow-hidden bg-secondary/50">

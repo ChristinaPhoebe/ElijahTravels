@@ -7,7 +7,6 @@ export function Testimonials() {
     <section className="bg-secondary/40 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="Rider stories"
           title="Trusted by families and travellers"
           description="Real experiences from customers who ride with us across Chennai and Tamil Nadu."
         />

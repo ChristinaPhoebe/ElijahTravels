@@ -7,6 +7,8 @@ export function LocalBusinessSchema() {
     name: SITE.name,
     description: SITE.description,
     url: SITE.url,
+    logo: `${SITE.url}/elijah-logo-teal.png`,
+    image: `${SITE.url}/elijah-logo-teal.png`,
     telephone: SITE.phone.raw,
     email: SITE.email,
     areaServed: 'Tamil Nadu, India',

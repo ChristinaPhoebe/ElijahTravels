@@ -4,12 +4,10 @@ import { ChevronRight } from 'lucide-react'
 type Crumb = { label: string; href?: string }
 
 export function PageHero({
-  eyebrow,
   title,
   intro,
   crumbs,
 }: {
-  eyebrow?: string
   title: string
   intro?: string
   crumbs?: Crumb[]
@@ -36,12 +34,6 @@ export function PageHero({
               ))}
             </ol>
           </nav>
-        )}
-        {eyebrow && (
-          <span className="inline-flex items-center gap-2 rounded-full bg-card px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-primary ring-1 ring-border">
-            <span className="size-1.5 rounded-full bg-accent" aria-hidden />
-            {eyebrow}
-          </span>
         )}
         <h1 className="mt-4 max-w-3xl text-balance text-4xl font-extrabold leading-[1.08] sm:text-5xl">
           {title}

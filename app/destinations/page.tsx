@@ -30,7 +30,6 @@ export default function DestinationsPage() {
   return (
     <>
       <PageHero
-        eyebrow="Destinations"
         title="Temple Tours & Getaways Across Tamil Nadu"
         intro="Custom tour packages and one-way taxi services to the most-loved destinations around Chennai — from sacred temple towns to coastal escapes."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Destinations' }]}
@@ -40,7 +39,7 @@ export default function DestinationsPage() {
         <DestinationsGrid />
       </section>
 
-      <Faq items={DEST_FAQ} eyebrow="Good to know" title="Destination FAQs" />
+      <Faq items={DEST_FAQ} title="Destination FAQs" />
 
       <div className="pb-16 sm:pb-20">
         <CtaBand

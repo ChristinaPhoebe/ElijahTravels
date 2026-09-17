@@ -48,7 +48,6 @@ export default async function DestinationDetailPage({
   return (
     <>
       <PageHero
-        eyebrow="Destination"
         title={dest.name}
         intro={dest.short}
         crumbs={[

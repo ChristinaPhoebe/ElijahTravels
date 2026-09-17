@@ -8,12 +8,10 @@ export type FaqItem = { q: string; a: string }
 
 export function Faq({
   items,
-  eyebrow = 'FAQ',
   title = 'Frequently asked questions',
   description,
 }: {
   items: FaqItem[]
-  eyebrow?: string
   title?: string
   description?: string
 }) {
@@ -22,7 +20,7 @@ export function Faq({
   return (
     <section className="py-16 sm:py-24">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <SectionHeading eyebrow={eyebrow} title={title} description={description} />
+        <SectionHeading title={title} description={description} />
         <dl className="mt-10 divide-y divide-border rounded-3xl bg-card px-6 ring-1 ring-border">
           {items.map((item, i) => {
             const isOpen = open === i

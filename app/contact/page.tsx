@@ -46,7 +46,6 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
-        eyebrow="Contact"
         title="Book a Ride or Get a Quote"
         intro="Tell us your trip and we'll confirm your vehicle and fare within minutes. Call, WhatsApp, or use the form below — whatever is easiest for you."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Contact' }]}

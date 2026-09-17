@@ -35,6 +35,25 @@ export const metadata: Metadata = {
     'outstation cabs Chennai',
     'temple tour Tamil Nadu',
   ],
+  icons: {
+    icon: [
+      { url: '/favicon.ico?v=2' },
+      { url: '/favicon-16x16.png?v=2', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png?v=2', sizes: '32x32', type: 'image/png' },
+      { url: '/icon-192.png?v=2', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png?v=2', sizes: '512x512', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico?v=2',
+    apple: [
+      { url: '/apple-touch-icon.png?v=2', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: '/manifest.json?v=2',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: SITE.name,
+  },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
@@ -47,7 +66,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#f5f1e8',
+  themeColor: '#0d3b36',
   colorScheme: 'light',
 }
 

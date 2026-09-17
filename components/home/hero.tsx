@@ -8,11 +8,6 @@ export function Hero() {
     <section className="relative overflow-hidden">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-6 pt-10 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:pt-16">
         <div className="flex flex-col gap-6">
-          <span className="inline-flex w-fit items-center gap-2 rounded-full bg-secondary px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-primary">
-            <span className="size-1.5 rounded-full bg-accent" aria-hidden />
-            Trusted in Chennai since {SITE.since}
-          </span>
-
           <h1 className="text-balance text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
             Trusted Taxi &amp; Tour Services in{' '}
             <span className="text-primary">Chennai</span>

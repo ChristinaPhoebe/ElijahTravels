@@ -47,7 +47,9 @@ export default function HomePage() {
       <FleetCategories />
       <Testimonials />
       <Faq items={HOME_FAQ} description="Everything you need to know before you book your ride." />
-      <CtaBand />
+      <div className="pb-16 sm:pb-20">
+        <CtaBand />
+      </div>
     </>
   )
 }

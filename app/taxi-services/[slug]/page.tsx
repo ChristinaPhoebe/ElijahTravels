@@ -43,7 +43,6 @@ export default async function ServiceDetailPage({
   return (
     <>
       <PageHero
-        eyebrow="Taxi services"
         title={service.title}
         intro={service.short}
         crumbs={[
@@ -115,7 +114,6 @@ export default async function ServiceDetailPage({
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <SectionHeading
             align="center"
-            eyebrow="Fares"
             title="Vehicle Rates"
             intro="Pick a vehicle category to see indicative local and outstation pricing."
             className="mx-auto items-center text-center"

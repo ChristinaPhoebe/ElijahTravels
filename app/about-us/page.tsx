@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import { ShieldCheck, Clock, Car, MapPin } from 'lucide-react'
 import { PageHero } from '@/components/page-hero'
-import { Eyebrow, SectionHeading } from '@/components/section-heading'
+import { SectionHeading } from '@/components/section-heading'
 import { WhyChoose } from '@/components/why-choose'
 import { CtaBand } from '@/components/cta-band'
 import { SITE } from '@/lib/site'
@@ -28,7 +28,6 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About us"
         title="Your Local Travel Partner in Chennai"
         intro="A locally rooted taxi and tour service company committed to making travel safe, affordable, and convenient — every journey, short or long."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'About Us' }]}
@@ -56,7 +55,6 @@ export default function AboutPage() {
           </div>
 
           <div className="flex flex-col gap-5">
-            <Eyebrow>Our story</Eyebrow>
             <h2 className="text-balance text-3xl font-bold leading-tight sm:text-4xl">
               Trusted Rides Since {SITE.since}
             </h2>
@@ -101,7 +99,6 @@ export default function AboutPage() {
       {/* Mission + values */}
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
         <SectionHeading
-          eyebrow="Our promise"
           title="Travel With Confidence"
           intro="Your comfort and safety are our top priorities. From transparent fares to sanitized vehicles and verified drivers, everything we do is built around a stress-free, punctual ride."
         />

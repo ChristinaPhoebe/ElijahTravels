@@ -7,7 +7,6 @@ export function ServicesOverview() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
       <SectionHeading
-        eyebrow="What we do"
         title="Our Taxi & Tour Services"
         intro="Whether you're traveling within the city or exploring spiritual destinations, we have the right service for every need."
       />

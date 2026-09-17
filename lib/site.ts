@@ -13,6 +13,8 @@ export const SITE = {
   url: 'https://elijahtravels.in',
   location: 'Chennai, Tamil Nadu',
   priceAnchor: '₹1549',
+  logo: '/elijah-logo-teal.png',
+  logoWhite: '/elijah-logo-white.png',
   phone: {
     display: PHONE_DISPLAY,
     raw: PHONE_RAW,

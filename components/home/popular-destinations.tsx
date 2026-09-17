@@ -8,7 +8,6 @@ export function PopularDestinations() {
     <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
       <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
         <SectionHeading
-          eyebrow="Temple tours & getaways"
           title="Explore Tamil Nadu's Most Loved Destinations"
           intro="We offer custom tour packages and one-way taxi services to popular destinations across the state."
         />

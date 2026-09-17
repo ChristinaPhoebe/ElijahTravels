@@ -19,7 +19,6 @@ export default function TaxiServicesPage() {
   return (
     <>
       <PageHero
-        eyebrow="Taxi services"
         title="Reliable Cabs for Every Journey"
         intro="From quick city drops to long-distance temple tours, choose a service built around comfort, safety and honest pricing."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Taxi Services' }]}
@@ -63,7 +62,6 @@ export default function TaxiServicesPage() {
       <section className="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:pb-20">
         <SectionHeading
           align="center"
-          eyebrow="Fares & packages"
           title="Transparent Pricing"
           intro="Indicative rates for local packages and outstation trips. Toll, parking and permit charges apply as per the quote."
           className="mx-auto items-center text-center"
