@@ -1,8 +1,8 @@
-#Elijah Travels
+# Elijah Travels
 Official website for Elijah Travels - a taxi and tour service company based in Chennai, Tamil Nadu, offering local rides, airport transfers, outstation trips, and tour packages across Tamil Nadu.
 Live site: elijahtravels.in
 
-##Tech Stack
+## Tech Stack
 - Framework: Next.js (App Router)
 - Styling: Tailwind CSS
 - UI components: shadcn/ui
